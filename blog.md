@@ -1,4 +1,5 @@
 # A Spooky, Funky Little Blog
+###### Posted March 6th, 2024
 
 Welcome to my first post on this developer blog! This has been made on behalf of Awesome Inc, so here I am to answer their questions. First, though, you are REQUIRED to look at my cat:
 
