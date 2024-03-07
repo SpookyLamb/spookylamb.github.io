@@ -31,6 +31,6 @@ Here's a drawing of the main character of my current game, one of the sprites us
 
 ![Yes, the hat IS alive.](https://github.com/SpookyLamb/spookylamb.github.io/blob/dev/img/iris.jpg?raw=true)
 
-She's a little witch, and I think she's pretty cool. :wink:
+She's a little witch, and I think she's pretty cool. ;)
 
 Hope that clears all of that up!
