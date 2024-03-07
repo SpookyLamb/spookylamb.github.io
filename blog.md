@@ -3,7 +3,7 @@
 
 Welcome to my first post on this developer blog! This has been made on behalf of Awesome Inc, so here I am to answer their questions. First, though, you are REQUIRED to look at my cat:
 
-![Alt Text](ImageURL)
+![CAT CAT CAT CAT CAT](https://github.com/SpookyLamb/spookylamb.github.io/blob/dev/img/livee.jpg?raw=true)
 
 She's lovely, isn't she? My north star, my guiding moonlight... all this, I do for her...
 
@@ -29,7 +29,7 @@ Oh gosh, that's a tough question. I'm basically an open book about anything I'm 
 
 Here's a drawing of the main character of my current game, one of the sprites used in-game:
 
-![Alt Text](ImageURL)
+![Yes, the hat IS alive.](https://github.com/SpookyLamb/spookylamb.github.io/blob/dev/img/iris.jpg?raw=true)
 
 She's a little witch, and I think she's pretty cool. :wink:
 
