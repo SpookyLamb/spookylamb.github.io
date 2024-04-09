@@ -1,0 +1,24 @@
+.contact-avatar-pic {
+    height: 30vh;
+    width: 30vh;
+}
+
+.link-icon {
+    height: 5vh;
+    width: 5vh;
+}
+
+/* svg:hover {
+    fill: orange!important;
+} */
+
+/* .contact-box {
+    padding-top: 5vh;
+    padding-left: 15vh;
+    padding-bottom: 5vh;
+    padding-right: 15vh;
+}
+
+.contact-row {
+    padding: 3vh;
+} */
