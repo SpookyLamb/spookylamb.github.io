@@ -12,13 +12,18 @@
     fill: orange!important;
 } */
 
-/* .contact-box {
-    padding-top: 5vh;
-    padding-left: 15vh;
-    padding-bottom: 5vh;
-    padding-right: 15vh;
+.contact-box {
+    background-color: rgba(86,90,117,155);
 }
 
-.contact-row {
+.contact-card-wrapper {
+    background-color: #c6b7be;
+}
+
+.contact-body {
+    background-color: #0f0f1b;
+}
+
+/* .contact-row {
     padding: 3vh;
 } */
