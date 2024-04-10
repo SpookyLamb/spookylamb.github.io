@@ -1,0 +1,29 @@
+.contact-avatar-pic {
+    height: 30vh;
+    width: 30vh;
+}
+
+.link-icon {
+    height: 5vh;
+    width: 5vh;
+}
+
+/* svg:hover {
+    fill: orange!important;
+} */
+
+.contact-box {
+    background-color: rgba(86,90,117,155);
+}
+
+.contact-card-wrapper {
+    background-color: #c6b7be;
+}
+
+.contact-body {
+    background-color: #0f0f1b;
+}
+
+/* .contact-row {
+    padding: 3vh;
+} */
