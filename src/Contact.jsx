@@ -1,8 +1,9 @@
-
+import { Navigation } from "./Components"
 
 function Contact() {
     return (
         <div className="contact-body">
+            <Navigation />
             <div className="container contact-card-wrapper vh-100">
                 <div className="row m-1 d-flex justify-content-center align-items-center">
                     <div className="col-12 col-lg-6 vh-100 d-flex flex-column justify-content-evenly">
