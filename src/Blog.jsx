@@ -27,7 +27,7 @@ function Post() {
     //"index", their index number (oldest = lowest number)
     //"title", their title/heading
     //"date", the date they were posted
-    //"content", an array containing the post's actual content, including subheadings and paragraphs
+    //"content", an array of strings containing the post's actual content, including subheadings and paragraphs
 
     return (
         <div>
