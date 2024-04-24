@@ -14,7 +14,8 @@ export function Navigation() {
                 <Nav className="mx-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="https://spookylamb.github.io/blog/">Blog</Link>
+                <Link className="nav-link" to="/blog">Blog</Link>
+                {/* "https://spookylamb.github.io/blog/" */}
                 <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
             </Navbar.Collapse>
