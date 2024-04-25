@@ -74,9 +74,16 @@ function PostDate(properties) {
 function PostContent(properties) {
     //takes an array named "content", needs to dynamically produce <p> elements for each element in the array
     //must properly interpret markdown formatting, eg ## means a h2 element, ![]() is an image, []() is a link of some kind, etc
-
+    const content = properties.content
+    
     return (
-        <p>{properties.content}</p>
+        <>
+            {content.map((c) => {
+                return (
+                    <p>{c}</p>
+                )
+            })}
+        </>
     )
 }
 
