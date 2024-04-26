@@ -90,7 +90,7 @@ function Post() {
     //"date", the date they were posted
     //"content", an array of strings containing the post's actual content, including subheadings and paragraphs
     
-    let [cur_index, setIndex] = useState(1)
+    let [cur_index, setIndex] = useState(0)
 
     function prevPost() {
         if (cur_index - 1 >= 0) {
@@ -108,20 +108,30 @@ function Post() {
         //has the NEXT and BACK buttons that let the reader navigate between pages, and the INDEX button that takes them back to the index
         let back = <></>
         let next = <></>
+        let idx_but = <></>
 
         if (cur_index - 1 >= 0) {
             back = (<Button size="lg" onClick={prevPost}>BACK</Button>)
         }
 
-        if (cur_index + 1 < BlogPosts.length) {
-            next = (<Button size="lg" onClick={nextPost}>NEXT</Button>)
+        if (cur_index !== 0) {
+            if (cur_index + 1 < BlogPosts.length) {
+                next = (<Button size="lg" onClick={nextPost}>NEXT</Button>)
+            }
+
+            idx_but = (<Button size="lg" onClick={() => {setIndex(0)}}>INDEX</Button>)
         }
-        
+
+
+
         return (
             <Container className="py-4">
                 <Row className="mx-auto d-flex justify-content-between">
                     <Col className="col-4 d-flex justify-content-end">
                         {back}
+                    </Col>
+                    <Col className="col-4 d-flex justify-content-center">
+                        {idx_but}
                     </Col>
                     <Col className="col-4">
                         {next}
