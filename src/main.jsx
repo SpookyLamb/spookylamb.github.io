@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
   createBrowserRouter,
-  RouterProvider
+  RouterProvider,
+  Outlet,
 } from 'react-router-dom'
 
 // project styles
@@ -38,6 +39,8 @@ const router = createBrowserRouter([
 ], {
   basename: site
 })
+
+console.log("Init!")
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
