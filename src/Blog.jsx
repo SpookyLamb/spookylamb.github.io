@@ -106,17 +106,56 @@ function Post() {
 
     function BlogNav() {
         //has the NEXT and BACK buttons that let the reader navigate between pages, and the INDEX button that takes them back to the index
+        let back = <></>
+        let next = <></>
+
+        if (cur_index - 1 >= 0) {
+            back = (<Button size="lg" onClick={prevPost}>BACK</Button>)
+        }
+
+        if (cur_index + 1 < BlogPosts.length) {
+            next = (<Button size="lg" onClick={nextPost}>NEXT</Button>)
+        }
+        
         return (
             <Container className="py-4">
                 <Row className="mx-auto d-flex justify-content-between">
                     <Col className="col-4 d-flex justify-content-end">
-                        <Button size="lg" onClick={prevPost}>BACK</Button>
+                        {back}
                     </Col>
                     <Col className="col-4">
-                        <Button size="lg" onClick={nextPost}>NEXT</Button>
+                        {next}
                     </Col>
                 </Row>
             </Container>
+        )
+    }
+
+    function handleIndexClick(event, index) {
+        console.log(event)
+        setIndex(index)
+    }
+
+    function Index() {
+        //fills the index page dynamically using the json data
+        let index_links = []
+    
+        for (let i = 1; i < BlogPosts.length; i++) {
+            index_links.push(
+                <Button variant="link" onClick={(e) => {
+                    handleIndexClick(e, i)
+                }}>{BlogPosts[i].date}</Button>
+            )
+        }
+    
+        return (
+            <ul>
+            {index_links.map((element) => {
+                    return (<li>
+                        {element}
+                    </li>)
+                })}
+            </ul>
         )
     }
 
@@ -126,13 +165,19 @@ function Post() {
     const date = postData.date
     const content = postData.content
 
+    let element = (<PostContent content={content} />)
+
+    if (cur_index === 0) {
+        element = <Index/>
+    }
+
     return (
         <div className="vh-100 px-1 py-5">
             <Container>
                 <Col xs={12} lg={8} className="mx-auto border p-3 text-light">
                     <PostTitle title={title} />
                     <PostDate date={date} />
-                    <PostContent content={content} />
+                    {element}
                 </Col>
             </Container>
             <BlogNav />
