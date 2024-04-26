@@ -18,23 +18,39 @@ import ErrorPage from './ErrorPage'
 
 const site = import.meta.env.BASE_URL
 
+function Layout() {
+  return (
+      <>
+        <div id='page-content'>
+          <Outlet />
+        </div>
+      </>
+  )
+}
+
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/about',
-    element: <About />
-  },
-  {
-    path: "/contact",
-    element: <Contact />
-  },
-  {
-    path: "/blog",
-    element: <Blog />
+    element: <Layout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: '/',
+        element: <App />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/about',
+        element: <About />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
+      },
+      {
+        path: "/blog",
+        element: <Blog />
+      }
+    ]
   }
 ], {
   basename: site
