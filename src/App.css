@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #212529
+}
+#root {
+  height: 100%;
+}
+
+.contact-avatar-pic {
+  height: 35vh;
+  width: 35vh;
+}
+
+.link-icon {
+  height: 5vh;
+  width: 5vh;
+}
+
+.contact-box {
+  background-color: rgba(86,90,117,155);
+}
+
+.contact-card-wrapper {
+  background-color: #c6b7be;
+}
+
+.contact-body {
+  background-color: #0f0f1b;
+}
+
+.text-header {
+  font-size: 7vw;
+}
+
+.funny-icon {
+  height: 20vh;
+  width: 20vh;
+}
