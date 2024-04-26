@@ -3,6 +3,8 @@ import { Navigation } from "./Components"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+import { useState } from "react";
 
 import BlogPosts from '../blog/posts.json';
 console.log(BlogPosts);
@@ -14,18 +16,70 @@ function Blog() {
         <div>
             <Navigation />
             <Post />
-            <BlogNav />
         </div>
     )
 }
 
-function BlogNav() {
-    //has the NEXT and BACK buttons that let the reader navigate between pages, and the INDEX button that takes them back to the index
-    return (
-        <div>
+function formatLinks(string = "") { //note that this currently only supports one link in each string
+    let element
 
-        </div>
-    )
+    if (string.includes("](")) { //replace links within the string (NOTE: images use similar formatting, but they return earlier)
+        //slice up our string, grabbing the string before the link and the string after
+        let string1 = string.substring(0, string.indexOf("["))
+        let link_text = string.substring(string.indexOf("[") + 1, string.indexOf("]"))
+        let link_href = string.substring(string.indexOf("(") + 1, string.indexOf(")"))
+        let string2 = string.substring(string.indexOf(")") + 1)
+
+        element = (
+            <p>
+                {string1}
+                <a href={link_href}>{link_text}</a>
+                {string2}
+            </p>
+        )
+    } else { //shrug and return a <p>
+        element = (<p>{string}</p>)
+    }
+
+    return element
+} 
+
+function formatString(string = "") {
+    //takes a string and returns an HTML element
+    //must properly interpret markdown formatting, eg ## means a h2 element, ![]() is an image, []() is a link of some kind, etc
+
+    if (string.startsWith("## ")) { //h2
+        string = string.substring(3) //grab all the words after the formatting
+        return (
+            <h2>{string}</h2>
+        )
+    }
+
+    if (string.startsWith("![")) { //image
+        //needs to grab the alt-text between the [] and the src between the ()
+        let alt = string.substring(string.indexOf("[") + 1, string.indexOf("]")) //grab the [, start from the index after, stop at the ]
+        let src = string.substring(string.indexOf("(") + 1, string.indexOf(")")) //grab the (, start from the index after, stop at the )
+        string = string.substring(string.indexOf(")") + 1) //grab the ), then start from the index after
+
+        return (
+            <img className="img-fluid p-1 pb-3" alt={alt} src={src}/>
+        )
+    }
+
+    if (string.startsWith("* ") || string.startsWith("- ")) { //unordered list
+        string = string.substring(2) //skip the bullet
+
+        return (
+            <ul>
+                <li>{string}</li>
+            </ul>
+        )
+    }
+
+    let element = formatLinks(string)
+
+    //if nothing else returns at this point, return a <p> element
+    return element
 }
 
 function Post() {
@@ -35,22 +89,53 @@ function Post() {
     //"title", their title/heading
     //"date", the date they were posted
     //"content", an array of strings containing the post's actual content, including subheadings and paragraphs
+    
+    let [cur_index, setIndex] = useState(1)
 
-    const postData = BlogPosts[1]
+    function prevPost() {
+        if (cur_index - 1 >= 0) {
+            setIndex(cur_index - 1)
+        }
+    }
+
+    function nextPost() {
+        if (cur_index + 1 < BlogPosts.length) {
+            setIndex(cur_index + 1)
+        }
+    }
+
+    function BlogNav() {
+        //has the NEXT and BACK buttons that let the reader navigate between pages, and the INDEX button that takes them back to the index
+        return (
+            <Container className="py-4">
+                <Row className="mx-auto d-flex justify-content-between">
+                    <Col className="col-4 d-flex justify-content-end">
+                        <Button size="lg" onClick={prevPost}>BACK</Button>
+                    </Col>
+                    <Col className="col-4">
+                        <Button size="lg" onClick={nextPost}>NEXT</Button>
+                    </Col>
+                </Row>
+            </Container>
+        )
+    }
+
+    const postData = BlogPosts[cur_index]
 
     const title = postData.title
     const date = postData.date
     const content = postData.content
 
     return (
-        <div className="vh-100 p-5">
+        <div className="vh-100 px-1 py-5">
             <Container>
-                <Col xs={10} lg={8} className="mx-auto border p-5 text-light">
+                <Col xs={12} lg={8} className="mx-auto border p-3 text-light">
                     <PostTitle title={title} />
                     <PostDate date={date} />
                     <PostContent content={content} />
                 </Col>
             </Container>
+            <BlogNav />
         </div>
     )
 }
@@ -65,23 +150,28 @@ function PostTitle(properties) {
 
 function PostDate(properties) {
     //takes a string named "date"
-
-    return (
-        <h6 className="text-center pb-1">Posted {properties.date}</h6>
-    )
+    let date = properties.date
+    
+    if (date) {
+        return (
+            <h6 className="text-center pb-1">Posted {date}</h6>
+        )
+    } else { //no date, don't display
+        return (
+            <></>
+        )
+    }
 }
 
 function PostContent(properties) {
     //takes an array named "content", needs to dynamically produce <p> elements for each element in the array
-    //must properly interpret markdown formatting, eg ## means a h2 element, ![]() is an image, []() is a link of some kind, etc
+
     const content = properties.content
-    
+
     return (
         <>
-            {content.map((c) => {
-                return (
-                    <p>{c}</p>
-                )
+            {content.map((string) => {
+                return (formatString(string))
             })}
         </>
     )

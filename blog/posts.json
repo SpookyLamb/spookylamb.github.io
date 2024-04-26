@@ -3,7 +3,16 @@
         "index": 0,
         "title": "Index",
         "date": "",
-        "content": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra vel ex accumsan maximus. Curabitur et dictum tortor. Aliquam elementum tortor egestas ex dictum, eu suscipit mauris pretium. Maecenas tempus felis nisi, in vehicula urna malesuada ut. Nulla molestie quam turpis, a eleifend velit fermentum ac. In bibendum augue orci, sed condimentum est ullamcorper vitae. Sed turpis ligula, scelerisque a aliquam ut, pulvinar quis nibh. Phasellus fermentum tempor ullamcorper. Suspendisse potenti. Ut ut sagittis eros. "]
+        "content": ["Click the links below to see the relevant posts.",
+        "- [4-20-24](https://spookylamb.github.io/blog/post/4-20-24)",
+        "- [4-12-24](https://spookylamb.github.io/blog/post/4-12-24)",
+        "- [4-5-24](https://spookylamb.github.io/blog/post/4-5-24)",
+        "- [3-29-24](https://spookylamb.github.io/blog/post/3-29-24)",
+        "- [3-22-24](https://spookylamb.github.io/blog/post/3-22-24)",
+        "- [3-16-24](https://spookylamb.github.io/blog/post/3-16-24)",
+        "- [3-6-24](https://spookylamb.github.io/blog/post/3-6-24)",
+        "[Contact me!](https://spookylamb.github.io/contact.html)"
+        ]
     },
     {
         "index": 1,
@@ -11,14 +20,122 @@
         "date": "March 6th, 2024",
         "content": [
             
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-            "Praesent pharetra vel ex accumsan maximus. Curabitur et dictum tortor.", 
-            "Aliquam elementum tortor egestas ex dictum, eu suscipit mauris pretium.", 
-            "Maecenas tempus felis nisi, in vehicula urna malesuada ut. Nulla molestie quam turpis, a eleifend velit fermentum ac.",
-            "In bibendum augue orci, sed condimentum est ullamcorper vitae.",
-            "Sed turpis ligula, scelerisque a aliquam ut, pulvinar quis nibh.", 
-            "Phasellus fermentum tempor ullamcorper. Suspendisse potenti. Ut ut sagittis eros."
-            
+            "Welcome to my first post on this developer blog! This has been made on behalf of Awesome Inc, so here I am to answer their questions. First, though, you are REQUIRED to look at my cat:",
+            "![CAT CAT CAT CAT CAT](https://github.com/SpookyLamb/spookylamb.github.io/blob/dev/img/livee.jpg?raw=true)",
+            "She's lovely, isn't she? My north star, my guiding moonlight... all this, I do for her...",
+            "...And, well, also because I enjoy coding, but I need a little extrinsic motivation too!",
+            "Onto the questions...",
+            "## Was your first week what you expected? Why? Why not?",
+            "Not quite! But I didn't really know what to expect beyond what was on the course plan. I knew we would be learning Git, HTML, CSS, and JS in these first weeks, but I didn't think that we'd do that by building a blog on GitHub! I didn't even know that was an option GitHub offered.",
+            "## What are you excited or eager to learn more about?",
+            "Primarily front-end development. I like being able to take what I learn and build things I can actually look at with my eyeballs. There is a certain amount of satisfaction to be had with managing a database or punching commands into a terminal, but I consider myself a fairly creative person and that drive needs to be expressed somehow.",
+            "## What is something about you that can only be learned by reading this blog?",
+            "Oh gosh, that's a tough question. I'm basically an open book about anything I'm comfortable with sharing. For lack of any better ideas I can tell you a bit more about myself:",
+            "* I'm an amateur game developer who has been coding since she was 15. My primary hobbies are writing, coding, and drawing, in that order! They're what I spend the lion's share of my time on. I also have some knowledge of sound design and music composition for the sake of gamedev. I don't find them all that engaging, though, so I found a wizard living out of a van to do that for me!",
+            "* I've used all of the above combined skills to make several games over the years, though I neglected to put any of them up online out of a combination of insecurity and them not being up to my standards of quality. Most of those projects would be hard for me to find now, as I didn't keep very good backups, and didn't really want to keep them to begin with.",
+            "* I'm currently working on a new game project (an RPG!), and have been for the last two years (at least when my crappy job wasn't tiring me out too much)! I recently finished the prototyping stage after an extensive period of building, playtesting, and iterating, and I'm currently moving into production. Maybe you will see more about it later this year, assuming this bootcamp doesn't end up taking up all of my available time and energy I could use to work on it.",
+            "Here's a drawing of the main character of my current game, one of the sprites used in-game:",
+            "![Yes, the hat IS alive.](https://github.com/SpookyLamb/spookylamb.github.io/blob/dev/img/iris.jpg?raw=true)",
+            "She's a little witch, and I think she's pretty cool. ;)",
+            "Hope that clears all of that up!"
+        ]
+    },
+    {
+        "index": 2,
+        "title": "Moving Forward",
+        "date": "March 16th, 2024",
+        "content": [
+            "Another week has passed! We've covered the basics of HTML and CSS, a lot of which I already knew, and a fair amount I didn't! This is the first time I've really gotten to play around with it in any guided capacity though, so that was very nice! I wish I had known about the MDN docs before, as I probably would've done a lot of this on my own time well before this point had I been aware of them.",
+            "Ah well, onto the questions.",
+            "## What is something you wish you could do but currently do not have the coding skills to accomplish?",
+            "Good question! I'm not really sure. Probably build an entire website for my video game (mostly) from scratch, or make improvements to the phpBB forum that I help operate. I don't have enough web development knowledge to be able to confidently do anything like that yet, which sucks!",
+            "## What are you struggling with?",
+            "Getting things to work right when I don't already have extensive knowledge of how exactly they work under the hood. :/",
+            "That is the eternal struggle of being a developer, though. We're so abstracted from the actual 0s and 1s that make computers operate that we kinda have to rely on everyone else doing their jobs and having things work the way they say they should.",
+            "Unfortunately, most documentation leaves something to be desired.",
+            "## How do you solve a problem?", 
+            "I find any relevant reading that I can (in a programming context: documentation) and get to it. Once I have a good understanding of my problem, I go about fixing it using the guidance of whatever I was reading and my own skills/intuition.",
+            "## What methods do you use to help yourself get unstuck?",
+            "I take a moment to breathe, and talk the problem out with someone else. Usually my cat. She's a very good listener, and also won't stop trying to climb onto my laptop as I'm writing this. She wants to help, but alas, she's not very good at writing."
+        ]
+    },
+    {
+        "index": 3,
+        "title": "Rising Action",
+        "date": "March 22nd, 2024",
+        "content": [
+            "Three weeks down! We've covered the basics of JavaScript now, pretty much all of which I already knew and understood from prior use of the language (and other programming experience). That said, I'm happy to learn more!",
+            "Questions!",
+            "## What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing a user experience?",
+            "I find the way that they all interact with each other quite interesting. HTML is the bottom of the pyramid, the essential basis for the other two. CSS provides all the pretty graphics and page arrangement that actually makes pages nice to look at, and JavaScript provides all (or nearly all) of the actual interactivity. Without them adding onto the HTML, all we would have are static pages of barely formatted text, which would be pretty boring! I'm most excited to work with JavaScript since it's my comfort zone, but I'm also happy to learn CSS and have pages come to life.",
+            "## What are some objects that your blog incorporates?",
+            "None right now, I'm pretty sure! Or, at least, none that I've put in. I haven't really dived into the code of how the Jekyll themes work, but I imagine that it must make some decent use of Objects. As for me, that will have to be saved for later, once I've got a clearer idea of how I can improve the blog with them! >:3"
+        ]
+    },
+    {
+        "index": 4,
+        "title": "Onboarding Done!",
+        "date": "March 29th, 2024",
+        "content": [
+            "Onboarding is done! I've quit my old, crappy job and now am moving forward with the bootcamp! Very excited to be in-person, less excited to now be on the day schedule after working nights for five years, but at least I've been slowly adjusting in preparation.",
+            "Question time!~",
+            "## What was helpful during Onboarding working remotely?",
+            "Being able to speak with everyone through slack and have the opportunity to look at everyone else's code to pick up on tips and tricks I wasn't able to find myself.",
+            "## What hindered your progress during Onboarding?",
+            "Time, mostly. I had to continue working my job part-time while participating so I didn't have as much time each week as I would've liked to work on things. Other than that, though, it was fairly easy to keep up and complete the tasks I was given.",
+            "## How did you overcome challenges during Onboarding?",
+            "Documentation. If that didn't work, Google. If THAT didn't work, the tried and true method of trial-and-error."
+        ]
+    },
+    {
+        "index": 5,
+        "title": "Behold, My Psychic Power!",
+        "date": "April 5th, 2024",
+        "content": [        
+            "We completed our first real project! You can find my version of it at: [Mind Reader](https://spookylamb.github.io/mind-reader/)",
+            "Onto the usual questions...",
+            "## What is the number one thing that held you back this week? Why?",
+            "Lack of knowledge of Bootstrap and how it interacts with JavaScript and CSS, I think. There were lots of times that I was left very confused by its behavior and ended up using a lot of trial-and-error between reading docs.",
+            "## What is one thing you would like to learn more about regarding JavaScript (JSON, Data Structures), Bootstrap, or Atomic Design?",
+            "I think I have a very good understanding of Atomic Design, but I generally just want to get more familiar with the documentation for both JavaScript and especially Bootstrap. There's always more to learn and put into practice!",
+            "## What is your 'Why'?",
+            "What a strange and open-ended question! Why I'm doing this bootcamp, I take it? Well the answer I keep giving is that I've been coding since I was a teenager and I want to turn that into a career. Simple as!"
+        ]
+    },
+    {
+        "index": 6,
+        "title": "Weather Report Wants To Know Your Location",
+        "date": "April 12th, 2024",
+        "content": [
+        "We have completed our second project! Similarly to last week, you can find my version at: [Weather Forecast](https://spookylamb.github.io/weather-app/)",
+        "That brings me to this week's questions...",
+        "## What did you learn about that helped you understand the development process?",
+        "Oh man, I don't really know. I've been so familiar with development for so long that I think I've already got a very good understanding of it, nothing has really opened my eyes or been too different besides working with other people rather than on my own.",
+        "## What does it mean to develop good code?",
+        "Good code to me is code that is efficient, organized, readable, and most importantly, WORKS (without bugs)!",
+        "## What does it mean to be a good developer?",
+        "Being a good developer to me means that you get your work done on-time to the best of you ability, following good code practices, as above.",
+        "## What is one thing that programmers hate doing?",
+        "For me, it's trying to get something working when I don't actually understand *why*, and simply having to rely on faith that other people's solutions work. For other programmers, from what I have noticed... documenting their code and refactoring it when it's a slapdash solution that works but isn't readable, organized, or efficient."
+        ]
+    },
+    {
+        "index": 7,
+        "title": "On The Importance of Pseudocode",
+        "date": "April 20th, 2024",
+        "content": [
+        "## What the heck is pseudocode?",
+        "'Pseudocode' is a term often used by programmers to refer to 'code' that is in fact not code ('pseudo' literally means 'fake'!), but rather a plain explanation of what a program is ideally supposed to do, starting with its input, describing the actions it should take with that input, and then ending with its desired output. It is an approximation/conceptualization rather than anything a computer actually knows what to do with. To a layman or an inexperienced developer, it might seem like a waste of time. Why bother writing fake code when you could write real code that actually does something instead?",
+        "Well, the answer is that coding is hard. Computers do not think the way that humans do, and they will only do exactly what you tell them to do, in the order you tell them to do it. Nothing is assumed or taken for granted by a machine - it just is. Writing something a computer understands is always a puzzle, and if you don't have something to guide you through the process, then you're likely to get lost in the weeds and forget where you're even going with all this.",
+        "That's where pseudocode comes in.",
+        "## Okay, how does it help?",
+        "Pseudocode lets you sit down and plan out exactly what you're going to do and how you're going to do it, in a language that you intuitively understand (aka, not the way computers think). By writing pseudocode first, before you write a single line of actual code, you already have your blueprint for what you want the computer to do. Thus, when you sit down to actually translate your psuedocode into machine-speak, you don't need to do any extra thinking, you ONLY have to transcribe and test your solution. No missing the forest for the trees. You have your guiding light, so all you need to do is follow it.",
+        "## So... how should you write it?",
+        "Depends on what makes sense to you. That's the beauty of pseudocode! There's no strict standard for how best to write it, as it is meant solely to help make the confusing inner workings of a machine make sense to *you*. That said, here's how **I** write pseudocode, and thus how you might write it too:",
+        "First, I start by writing out my expected input and output. What does this piece of code take in, and what is it supposed to spit back out? Input is our initial values, whatever we're supposed to act on. Local or global, code always acts on some piece of information. Meanwhile, our output could be an actual return value, or it could be alterations made to whatever the end-user sees. Either way, it's doing *something*, otherwise it's just a waste of your time and the computer's clock cycles.",
+        "Second, I figure out the way to turn my input into my desired output, step by step. Whatever information the computer needs to take from the input, it takes. Whatever it needs to act on with that information, it does. Then, whatever preparations it needs to make for its output, it makes. Then, it spits the output back out, ideally how you expect. And that's it!",
+        "Okay I know that sounds a little vague, but that's the nature of the beast! Pseudocode can apply to *any* problem you can imagine a computer solving (not the Halting Problem, sorry), so its applications are as vast as they come. You do have to figure a lot of it out on your own, but it gets easier and more intuitive the more you do it.",
+        "Most importantly, doing it will make you a better, faster programmer, and that's why pseudocode is so important."
         ]
     }
 ]
