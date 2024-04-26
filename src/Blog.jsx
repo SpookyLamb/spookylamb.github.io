@@ -111,15 +111,15 @@ function Post() {
         let idx_but = <></>
 
         if (cur_index - 1 >= 0) {
-            back = (<Button size="lg" onClick={prevPost}>BACK</Button>)
+            back = (<Button variant="danger" size="lg" onClick={prevPost}>BACK</Button>)
         }
 
         if (cur_index !== 0) {
             if (cur_index + 1 < BlogPosts.length) {
-                next = (<Button size="lg" onClick={nextPost}>NEXT</Button>)
+                next = (<Button variant="danger" size="lg" onClick={nextPost}>NEXT</Button>)
             }
 
-            idx_but = (<Button size="lg" onClick={() => {setIndex(0)}}>INDEX</Button>)
+            idx_but = (<Button variant="danger" size="lg" onClick={() => {setIndex(0)}}>INDEX</Button>)
         }
 
 
@@ -154,7 +154,7 @@ function Post() {
             index_links.push(
                 <Button variant="link" onClick={(e) => {
                     handleIndexClick(e, i)
-                }}>{BlogPosts[i].date}</Button>
+                }}>{BlogPosts[i].date + " - " + BlogPosts[i].title}</Button>
             )
         }
     
