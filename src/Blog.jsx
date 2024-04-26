@@ -7,7 +7,6 @@ import Button from 'react-bootstrap/Button';
 import { useState } from "react";
 
 import BlogPosts from '../blog/posts.json';
-console.log(BlogPosts);
 
 //needs to display blog posts in a consistent format, with the ability to navigate between them with a push of a button
 
