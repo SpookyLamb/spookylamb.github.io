@@ -10,7 +10,7 @@ function Contact() {
                         <div className="row d-flex m-3 justify-content-center">
                             <div className="col-6 d-flex justify-content-center">
                                 <a href="https://spookylamb.github.io/blog/">
-                                    <img src="../img/avi.png" className="rounded-circle contact-avatar-pic mx-auto" alt="An avatar picture."/>
+                                    <img src="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/avi.png" className="rounded-circle contact-avatar-pic mx-auto" alt="An avatar picture."/>
                                 </a>
                             </div>
                         </div>
@@ -23,7 +23,7 @@ function Contact() {
                                     
                                     <div className="col-12 d-flex justify-content-center">
                                         <a href="mailto:madeline.carlson.business@gmail.com">
-                                            <img src="../img/icons/Email.svg" className="link-icon" alt="Email"/>
+                                            <img src="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/icons/Email.svg" className="link-icon" alt="Email"/>
                                         </a>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@ function Contact() {
                                 <div className="row align-items-center d-flex justify-content-evenly pt-4 pb-5">
                                     <div className="col-12 d-flex justify-content-center">
                                         <a href="https://github.com/SpookyLamb">
-                                            <img src="../img/icons/Github.svg" className="link-icon" alt="Github" />
+                                            <img src="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/icons/Github.svg" className="link-icon" alt="Github" />
                                         </a>
                                     </div>
                                 </div>                    

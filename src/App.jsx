@@ -11,7 +11,7 @@ function App() {
                     <div className="col-12 text-center text-white">
                         <h1 className="font-monospace text-header">&#123; HELLO FRIEND &#125;</h1>
                         <h2 className="text-decoration-underline pb-2 text-danger">I'm Maddie!</h2>
-                        <img src="../img/avi.png" alt="A cute picture." className="rounded-circle p-3 funny-icon"></img>
+                        <img src="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/avi.png" alt="A cute picture." className="rounded-circle p-3 funny-icon"></img>
                     </div>
                 </div>
                 <div className="row text-white text-center">
