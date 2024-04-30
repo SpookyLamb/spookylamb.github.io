@@ -36,10 +36,14 @@ body {
 }
 
 .funny-icon {
-  height: 20vh;
-  width: 20vh;
+  height: 22vh;
+  width: 22vh;
 }
 
 .portfolio-card {
   width: 18rem;
+}
+
+.inferno-divider {
+  height: 5rem;
 }
