@@ -1,22 +1,18 @@
-# Action, then Reaction
-###### April 26th, 2024
+# Tasks & CLIs
+###### May 4th, 2024
 
-We've learned React! This blog is using it now too! Very nice. This week's project was a Restaurant Menu, which you can find here: [The Summer Demon](https://spookylamb.github.io/random-restaurant/)
+We've continued learning react, applying it to a fairly advanced to-do list project for this week! You can find mine here: [To-Do List](https://todo-list-nine-phi-47.vercel.app/)
 
-Also, last week we made a game! I made two. >:)
+To answer the questions...
 
-You can find that at [Tic-Tac-Toe](https://spookylamb.github.io/tic-tac-toe/) since it wasn't linked last week.
+## What have you learned about CLIs? Do you think they are scary?
 
-Questions, as always...
+Over the course of the bootcamp I can't say I've learned too much new about Command-Line Interfaces (yet) since I already used my terminal fairly regularly, but I have been making use of them a whole lot more! I don't think they're scary, just delicate. They're a lot like knives -- used incorrectly, they can cause great harm, but are otherwise extremely useful and versatile tools that can cut straight to the heart of a situation.
 
-## Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?
+## If you were to build a CLI, what would it do?
 
-For me? Easy. I'm used to taking code that is free-to-use and using it to speed up my processes. There's always a learning curve when you're picking up something new and understanding all of its individual quirks, but it's not too much of a problem.
+That's hard! It'd really depend on the specific application and why I needed a CLI. I suppose the first thing that comes to mind would be a text-adventure game, ala Zork. I made one of those when I was in high-school, though I'm not sure I'd be able to find a copy now... 
 
-## What Frameworks or Libraries are you interested in learning more about?
+## List some ideas that without a Framework, would take you a long time to code
 
-Good question. Nothing is coming to mind at the moment, but I'm sure something will pique my interest at some point.
-
-## Find one emerging JavaScript tool that you would like to learn more about or use in your final project.
-
-Svelte seems fairly interesting. It's not that new but it's apparently one of the top frameworks in terms of developer satisfaction. TypeScript is not something I'm used to, but I'm sure I could learn it in due time.
+Pretty much anything on the modern internet. Dynamic online storefronts, social media applications, complex games especially would be agonizing to program without any kind of framework. Even something as basic as the blog you're reading this on! Frameworks are vital to the functioning of the internet as we know it.
