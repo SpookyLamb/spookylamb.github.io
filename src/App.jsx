@@ -71,6 +71,13 @@ function Portfolio() {
             link="https://spookylamb.github.io/random-restaurant/"
             btn="Enjoy Our Menu..."
           />
+          <PortfolioCard
+            title="To-Do List"
+            pic="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/to-do-list.png"
+            text="A list that tracks and saves tasks, which you can edit, delete, or complete!"
+            link="https://todo-list-nine-phi-47.vercel.app/"
+            btn="Get To Doing!"
+          />
         </Col>
       </Row>
     </Container>
