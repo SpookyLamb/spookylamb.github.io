@@ -16,7 +16,7 @@ import Blog from "./Blog"
 import Contact from "./Contact"
 import ErrorPage from './ErrorPage'
 
-const site = import.meta.env.BASE_URL
+//const site = import.meta.env.BASE_URL
 
 function Layout() {
   return (
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  basename: site
+  //basename: site
 })
 
 console.log("Init!")

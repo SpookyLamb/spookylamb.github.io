@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir dist",
-    "preview-build": "vite preview --outDir dist",
+    "build": "vite build",
+    "preview-build": "vite preview",
     "git-build": "vite build --outDir docs",
     "git-preview-build": "vite preview --outDir docs"
   },
