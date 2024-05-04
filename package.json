@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --outDir dist",
-    "preview-build": "vite preview --outDir dist"
+    "preview-build": "vite preview --outDir dist",
+    "git-build": "vite build --outDir docs",
+    "git-preview-build": "vite preview --outDir docs"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
