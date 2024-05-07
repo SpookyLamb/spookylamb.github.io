@@ -10,7 +10,7 @@ function About() {
       <Navigation />
 
       <div className="vh-100 px-1 py-5">
-            <Container>
+            <Container className="py-5">
                 <Col xs={12} lg={8} className="mx-auto border p-3 text-light">
                   <h1 className="pt-5 pb-3">&#123; About Me &#125;</h1>
                   <hr/>

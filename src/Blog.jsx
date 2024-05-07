@@ -182,7 +182,7 @@ function Post() {
 
     return (
         <div className="vh-100 px-1 py-5">
-            <Container>
+            <Container className="py-5">
                 <Col xs={12} lg={8} className="mx-auto border p-3 text-light">
                     <PostTitle title={title} />
                     <PostDate date={date} />
