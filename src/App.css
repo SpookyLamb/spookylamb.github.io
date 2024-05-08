@@ -31,7 +31,7 @@ body {
 }
 
 .carousel-image {
-  max-width: 100vw;
+  max-width: 90vw;
   max-height: 65vh;
   object-fit: cover;
   object-position: center;
