@@ -67,8 +67,8 @@ function Portfolio() {
   // }; activeIndex={index} onSelect={handleSelect}
 
   return (
-    <div className="py-5">
-      <Carousel className="py-5 my-carousel mx-auto">
+    <div className="p-5">
+      <Carousel className="p-5 my-carousel mx-auto">
         <Carousel.Item>
           <CarouselImage 
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/mind-reader.png"
@@ -201,7 +201,7 @@ function InfernoDivider() {
   //a "navbar" that we're using as a divider
 
   return (
-    <Navbar className="inferno-divider bg-danger border-top border-bottom p-5"></Navbar>
+    <Navbar className="inferno-divider bg-danger border-top border-bottom"></Navbar>
   )
 }
 
