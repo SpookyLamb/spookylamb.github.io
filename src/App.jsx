@@ -1,4 +1,5 @@
 import { Navigation } from "./Components"
+import Contact from "./Contact" 
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 
@@ -28,7 +29,7 @@ function Hero() {
           </div>
           <div className="row text-white text-center">
               <h2 className="font-monospace">&#123;&nbsp;
-                <span className="font-monospace text-danger text-decoration-underline">I'm Maddie!</span>
+                <span className="font-monospace text-danger text-decoration-bold">I'm Maddie!</span>
               &nbsp;A very spooky Developer! &#125;</h2>
               {/* <h6>(And a very spooky game developer, too!)</h6> */}
           </div>
@@ -67,8 +68,9 @@ function Portfolio() {
   // }; activeIndex={index} onSelect={handleSelect}
 
   return (
-    <div className="p-5">
-      <Carousel className="p-5 my-carousel mx-auto">
+    <div className="py-5">
+      <h1 className="font-monospace py-3 text-center text-white">&#123; Projects &#125;</h1>
+      <Carousel className="py-5 my-carousel mx-auto">
         <Carousel.Item>
           <CarouselImage 
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/mind-reader.png"
@@ -176,32 +178,32 @@ function Portfolio() {
   // )
 }
 
-function PortfolioCard(props) {
-  const btn_text = props.btn
-  const btn_link = props.link
-  const main_text = props.text
-  const pic_href = props.pic
-  const card_title = props.title
+// function PortfolioCard(props) {
+//   const btn_text = props.btn
+//   const btn_link = props.link
+//   const main_text = props.text
+//   const pic_href = props.pic
+//   const card_title = props.title
 
-  return (
-    <Col className="col-12 px-1 py-3">
-      <Card className="portfolio-card border mx-auto" bg="dark" text="light">
-        <Card.Img variant="top" src={pic_href}></Card.Img>
-        <Card.Body>
-          <Card.Title>{card_title}</Card.Title>
-          <Card.Text>{main_text}</Card.Text>
-          <Button variant="danger" className="mx-auto" href={btn_link} target="_blank">{btn_text}</Button>
-        </Card.Body>
-      </Card>
-    </Col>
-  )
-}
+//   return (
+//     <Col className="col-12 px-1 py-3">
+//       <Card className="portfolio-card border mx-auto" bg="dark" text="light">
+//         <Card.Img variant="top" src={pic_href}></Card.Img>
+//         <Card.Body>
+//           <Card.Title>{card_title}</Card.Title>
+//           <Card.Text>{main_text}</Card.Text>
+//           <Button variant="danger" className="mx-auto" href={btn_link} target="_blank">{btn_text}</Button>
+//         </Card.Body>
+//       </Card>
+//     </Col>
+//   )
+// }
 
 function InfernoDivider() {
   //a "navbar" that we're using as a divider
 
   return (
-    <Navbar className="inferno-divider bg-danger border-top border-bottom"></Navbar>
+    <Navbar className="inferno-divider bg-danger"></Navbar>
   )
 }
 
@@ -216,6 +218,9 @@ function App() {
         <InfernoDivider/>
         <Portfolio/>
         <InfernoDivider/>
+      </section>
+      <section id="contact">
+        <Contact/>
       </section>
     </div>
   )
