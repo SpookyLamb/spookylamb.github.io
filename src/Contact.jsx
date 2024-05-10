@@ -1,9 +1,28 @@
 import { Navigation } from "./Components"
 
+import { MdEmail } from "react-icons/md";
+import { IoLogoGithub } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io";
+
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+import Container from "react-bootstrap/Container"
+
 function Contact() {
+
+    return (
+        <Container className="p-5">
+            <h1 className="font-monospace py-3 text-center text-white">&#123; Contact Me! &#125;</h1>
+            <Row className="text-white text-center contact-icons p-5">
+                <Col className="col-4 d-flex justify-content-end"> <a href="mailto:madeline.carlson.business@gmail.com"><MdEmail/></a> </Col>
+                <Col className="col-4 d-flex justify-content-center"> <a href="https://github.com/SpookyLamb"><IoLogoGithub/></a> </Col>
+                <Col className="col-4 d-flex justify-content-start"> <a href=""><IoLogoLinkedin/></a> </Col>
+            </Row>
+        </Container>
+    )
+
     return (
         <div className="contact-body">
-            <Navigation />
             <div className="container contact-card-wrapper vh-100">
                 <div className="row m-1 d-flex justify-content-center align-items-center">
                     <div className="col-12 col-lg-6 vh-100 d-flex flex-column justify-content-evenly">

@@ -1,18 +1,18 @@
-# Tasks & CLIs
-###### May 4th, 2024
+# Python & OOP
+###### May 10th, 2024
 
-We've continued learning react, applying it to a fairly advanced to-do list project for this week! You can find mine here: [To-Do List](https://todo-list-nine-phi-47.vercel.app/)
+This week we learned Python and the principles of Object Oriented Programming! That was something I was already very familiar with, so I'm afraid there was not much new I learned this week! But that's alright, it seems like the rest of my classmates learned a lot, and I was able to help a lot of them, so I'm happy on their behalf. :)
 
-To answer the questions...
+Question time, question time!
 
-## What have you learned about CLIs? Do you think they are scary?
+## Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?
 
-Over the course of the bootcamp I can't say I've learned too much new about Command-Line Interfaces (yet) since I already used my terminal fairly regularly, but I have been making use of them a whole lot more! I don't think they're scary, just delicate. They're a lot like knives -- used incorrectly, they can cause great harm, but are otherwise extremely useful and versatile tools that can cut straight to the heart of a situation.
+Definitely React. While it wasn't that challenging to me, it was still a pretty noticeable jump in difficulty and something I actually had to buckle down and learn. Next biggest hurdle will probably be learning Django and back-end development next week, but I'm sure I'll manage. >:)
 
-## If you were to build a CLI, what would it do?
+## Compared to earlier, what are three ideas you might want to do for your final project? Are they the same ideas as before, or have they changed now that you understand more about the technology and your limitations?
 
-That's hard! It'd really depend on the specific application and why I needed a CLI. I suppose the first thing that comes to mind would be a text-adventure game, ala Zork. I made one of those when I was in high-school, though I'm not sure I'd be able to find a copy now... 
+I think they're basically the same as before. Unfortunately I'm still struggling to come up with specific ideas for the final project, mostly because I don't know exactly what a potential employer would want to see as a demonstration of my skills. I'm still leaning towards the idea of making a game of some kind, to lean on my existing skills, but I'm not sure.
 
-## List some ideas that without a Framework, would take you a long time to code
+## What surprised you about your first week in Python and how was it different from your first week in JavaScript? 
 
-Pretty much anything on the modern internet. Dynamic online storefronts, social media applications, complex games especially would be agonizing to program without any kind of framework. Even something as basic as the blog you're reading this on! Frameworks are vital to the functioning of the internet as we know it.
+Nothing much, actually! I learned Python way before I learned Javascript, so it was like seeing an old friend. :)

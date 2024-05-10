@@ -151,9 +151,9 @@ function Post() {
     
         for (let i = 1; i < BlogPosts.length; i++) {
             index_links.push(
-                <Button variant="link" onClick={(e) => {
+                <a href="#" onClick={(e) => {
                     handleIndexClick(e, i)
-                }}>{BlogPosts[i].date + " - " + BlogPosts[i].title}</Button>
+                }}>{BlogPosts[i].date + " - " + BlogPosts[i].title}</a>
             )
         }
     

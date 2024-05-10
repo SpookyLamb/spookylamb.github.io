@@ -16,7 +16,8 @@ export function Navigation() {
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/blog">Blog</Link>
                 {/* "https://spookylamb.github.io/blog/" */}
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <a className="nav-link" href="/#projects">Projects</a>
+                <a className="nav-link" href="/#contact">Contact</a>
                 </Nav>
             </Navbar.Collapse>
             </Container>
