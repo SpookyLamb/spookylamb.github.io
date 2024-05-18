@@ -1,18 +1,18 @@
-# Python & OOP
-###### May 10th, 2024
+# SQL & Databases
+###### May 18th, 2024
 
-This week we learned Python and the principles of Object Oriented Programming! That was something I was already very familiar with, so I'm afraid there was not much new I learned this week! But that's alright, it seems like the rest of my classmates learned a lot, and I was able to help a lot of them, so I'm happy on their behalf. :)
+This week we ended up finally diving into the backend, learning SQL and how databases are generally structured, along with starting to dive into the Python framework, Django! It's quite exciting to finally arrive at material that I'm not already intimately familiar with.
 
-Question time, question time!
+Of course, this week, there are also questions, like any other...
 
-## Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?
+## What are some similarities and differences you can see with JS and Python?
 
-Definitely React. While it wasn't that challenging to me, it was still a pretty noticeable jump in difficulty and something I actually had to buckle down and learn. Next biggest hurdle will probably be learning Django and back-end development next week, but I'm sure I'll manage. >:)
+Well the big similarity that I immediately noticed is that they're both weakly/dynamically typed. The main (big) difference to me is that Python is very much object oriented while Javascript is multi-paradigm. I'm very comfortable with both, so it's no big deal!
 
-## Compared to earlier, what are three ideas you might want to do for your final project? Are they the same ideas as before, or have they changed now that you understand more about the technology and your limitations?
+## If you had started with Python instead of JS, how do you think the Bootcamp would be different? Would you have benefited?
 
-I think they're basically the same as before. Unfortunately I'm still struggling to come up with specific ideas for the final project, mostly because I don't know exactly what a potential employer would want to see as a demonstration of my skills. I'm still leaning towards the idea of making a game of some kind, to lean on my existing skills, but I'm not sure.
+Eh, me personally? No, I wouldn't have benefited. I was already very familiar with Python before the bootcamp, and I've never actually made anything with Javascript, even if I knew how to use it. Being exposed to a whole world of coding that I understood wasn't directly familiar with was a treat!
 
-## What surprised you about your first week in Python and how was it different from your first week in JavaScript? 
+## Think of a project or tech based tool that you use often and think about what the database structure might look like for it. Do you feel like you have a better understanding of how it works now and could you see yourself enjoying building something like that in the future? 
 
-Nothing much, actually! I learned Python way before I learned Javascript, so it was like seeing an old friend. :)
+Well, with React, I imagine you could build all sorts of databases to interact with it. Something obvious that comes to mind is Facebook's own use of it, and how the database stores posts, images, etc for use with the front-end. I could definitely enjoy it, but I just love putting stuff together in general!
