@@ -1,18 +1,18 @@
-# SQL & Databases
-###### May 18th, 2024
+# Full Stack!
+###### May 27th, 2024
 
-This week we ended up finally diving into the backend, learning SQL and how databases are generally structured, along with starting to dive into the Python framework, Django! It's quite exciting to finally arrive at material that I'm not already intimately familiar with.
+This week we built our very first full-stack application, extending the functionality of our original restaurant project! It was pretty satisfying to build my own API and finally understand how most of the web actually works!
 
-Of course, this week, there are also questions, like any other...
+As always, question time...
 
-## What are some similarities and differences you can see with JS and Python?
+## What are you struggling with the most in the Tech Stack so far and why?
 
-Well the big similarity that I immediately noticed is that they're both weakly/dynamically typed. The main (big) difference to me is that Python is very much object oriented while Javascript is multi-paradigm. I'm very comfortable with both, so it's no big deal!
+It's a combination of things. I think that I have the most trouble wrapping my head around React's functional programming, since I'm so used to OOP. That said, it's much easier to wrangle overall than all the ins-and-outs of the niche uses of Django. Neither is super hard for me, but both are at least a bit challenging.
 
-## If you had started with Python instead of JS, how do you think the Bootcamp would be different? Would you have benefited?
+## What companies or people (local or not) would you like to hear talk during a Bootcamp lunch and learn?
 
-Eh, me personally? No, I wouldn't have benefited. I was already very familiar with Python before the bootcamp, and I've never actually made anything with Javascript, even if I knew how to use it. Being exposed to a whole world of coding that I understood wasn't directly familiar with was a treat!
+I dunno! I guess it would be interesting to hear more from recruiters and maybe a large company or two. The specific ones don't really matter that much to me, just being able to hear some more perspectives would be good.
 
-## Think of a project or tech based tool that you use often and think about what the database structure might look like for it. Do you feel like you have a better understanding of how it works now and could you see yourself enjoying building something like that in the future? 
+## After having built your first full-stack application, what things in your repertoire are a sticking point for you? Were you able to reconnect your React Restaurant to your Backend Bistro code? If so, what was that like, and if not, what hurdles did you need to jump? 
 
-Well, with React, I imagine you could build all sorts of databases to interact with it. Something obvious that comes to mind is Facebook's own use of it, and how the database stores posts, images, etc for use with the front-end. I could definitely enjoy it, but I just love putting stuff together in general!
+Nothing's really a noticeable sticking point for me. I was able to connect the front-end and back-end fairly easily, and mostly just struggled with getting async functionality to work given that I wasted so much time on things that were NOT important, and that can be a bit finnicky in my experience.
