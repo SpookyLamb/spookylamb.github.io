@@ -1,18 +1,14 @@
-# Full Stack!
-###### May 27th, 2024
+# Authentication, Security
+###### June 2nd, 2024
 
-This week we built our very first full-stack application, extending the functionality of our original restaurant project! It was pretty satisfying to build my own API and finally understand how most of the web actually works!
+This week was our second week of full-stack development! This time we made a catalog that tracks a user's personal books and library! Mine currently isn't deployed anywhere yet, but I'll be sure to update this post when that changes.
 
-As always, question time...
+The main lesson this week was about user authentication and security. I'm glad that Django (and presumably similar frameworks) handles that on its own, I imagine making a system like that from scratch would be pretty hard!
 
-## What are you struggling with the most in the Tech Stack so far and why?
+Onto the question of the week...
 
-It's a combination of things. I think that I have the most trouble wrapping my head around React's functional programming, since I'm so used to OOP. That said, it's much easier to wrangle overall than all the ins-and-outs of the niche uses of Django. Neither is super hard for me, but both are at least a bit challenging.
+## What has been your experience overall thus far? What would you want to post as a “retrospective”?
 
-## What companies or people (local or not) would you like to hear talk during a Bootcamp lunch and learn?
+My experience with the bootcamp has been good, overall! I'm very happy with everything I've learned and practiced and feel fairly proud of my accomplishments. Getting into the job search has been tough, but that was always going to be the hardest part. The actual lessons and bootcamp overall have been lovely, and my fellow students have been a treat to be around.
 
-I dunno! I guess it would be interesting to hear more from recruiters and maybe a large company or two. The specific ones don't really matter that much to me, just being able to hear some more perspectives would be good.
-
-## After having built your first full-stack application, what things in your repertoire are a sticking point for you? Were you able to reconnect your React Restaurant to your Backend Bistro code? If so, what was that like, and if not, what hurdles did you need to jump? 
-
-Nothing's really a noticeable sticking point for me. I was able to connect the front-end and back-end fairly easily, and mostly just struggled with getting async functionality to work given that I wasted so much time on things that were NOT important, and that can be a bit finnicky in my experience.
+Overall, I'm not sure there's anything major I would change about the approach! It's just a matter of getting through this and the final home stretch. :)
