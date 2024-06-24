@@ -72,7 +72,7 @@ function Portfolio() {
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/witch-chess.png"
             link="https://witch-chess.vercel.app/"
           />
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption custom-caption">
             <h1>Witch Chess</h1>
             <p className="fs-4">An online multiplayer blitz chess app, with magic spells! Login required to play!</p>
           </Carousel.Caption>
@@ -83,7 +83,7 @@ function Portfolio() {
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/chatterbox.png"
             link="https://chatterbox-six.vercel.app/"
           />
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption custom-caption">
             <h1>Chatterbox</h1>
             <p className="fs-4">A simple social media app, similar in function to Twitter/Threads! Login required to view & post!</p>
           </Carousel.Caption>
@@ -95,7 +95,7 @@ function Portfolio() {
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/to-do-list.png"
             link="https://todo-list-nine-phi-47.vercel.app/"
           />
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption custom-caption">
             <h1>To-Do List</h1>
             <p className="fs-4">A list that tracks and saves tasks, which you can edit, delete, or complete!</p>
           </Carousel.Caption>
@@ -106,7 +106,7 @@ function Portfolio() {
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/summer-demon.png"
             link="https://spookylamb.github.io/random-restaurant/"
           />
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption custom-caption">
             <h1>The Summer Demon</h1>
             <p className="fs-4">A menu for a (fake) confectionary restaurant. Peruse our diabolical treats!</p>
           </Carousel.Caption>
@@ -117,7 +117,7 @@ function Portfolio() {
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/connect-4.png"
             link="https://spookylamb.github.io/tic-tac-toe/"
           />
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption custom-caption">
             <h1>Tic-Tac-Toe & Connect 4</h1>
             <p className="fs-4">An app that lets you play Tic-Tac-Toe and Connect 4! Try to beat your friends!</p>
           </Carousel.Caption>
@@ -128,7 +128,7 @@ function Portfolio() {
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/weather-app.png"
             link="https://spookylamb.github.io/weather-app/"
           />
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption custom-caption">
             <h1>Weather Report</h1>
             <p className="fs-4">An app that pulls up the current weather in your area, or in a provided ZIP code!</p>
           </Carousel.Caption>
@@ -139,7 +139,7 @@ function Portfolio() {
             source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/mind-reader.png"
             link="https://spookylamb.github.io/mind-reader/"
           />
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption custom-caption">
             <h1>Mind Reader</h1>
             <p className="fs-4">A simple app that takes any number between 1-99, and will READ YOUR MIND!</p>
           </Carousel.Caption>

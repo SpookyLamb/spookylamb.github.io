@@ -151,7 +151,7 @@ function Post() {
     
         for (let i = 1; i < BlogPosts.length; i++) {
             index_links.push(
-                <a href="#" onClick={(e) => {
+                <a className="blog-links text-danger" href="#" onClick={(e) => {
                     handleIndexClick(e, i)
                 }}>{BlogPosts[i].date + " - " + BlogPosts[i].title}</a>
             )
@@ -198,7 +198,7 @@ function PostTitle(properties) {
     //takes a string named "title"
 
     return (
-        <h1 className="text-center p-2">{properties.title}</h1>
+        <h1 className="text-center text-decoration-underline p-2">{properties.title}</h1>
     )
 }
 
