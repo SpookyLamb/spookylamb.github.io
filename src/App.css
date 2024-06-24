@@ -14,7 +14,7 @@ body {
   top: 0;
   z-index: 1030;
   width: 100vw;
-  height: 5rem;
+  min-height: 5rem;
 }
 
 .nav-text {
