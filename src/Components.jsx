@@ -12,12 +12,12 @@ export function Navigation() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/blog">Blog</Link>
+                <Link className="nav-link nav-text" to="/">Home</Link>
+                <Link className="nav-link nav-text" to="/about">About</Link>
+                <Link className="nav-link nav-text" to="/blog">Blog</Link>
                 {/* "https://spookylamb.github.io/blog/" */}
-                <a className="nav-link" href="/#projects">Projects</a>
-                <a className="nav-link" href="/#contact">Contact</a>
+                <a className="nav-link nav-text" href="/#projects">Projects</a>
+                <a className="nav-link nav-text" href="/#contact">Contact</a>
                 </Nav>
             </Navbar.Collapse>
             </Container>

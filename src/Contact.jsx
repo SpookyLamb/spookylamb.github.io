@@ -14,9 +14,9 @@ function Contact() {
         <Container className="p-5">
             <h1 className="font-monospace py-3 text-center text-white">&#123; Contact Me! &#125;</h1>
             <Row className="text-white text-center contact-icons p-5">
-                <Col className="col-4 d-flex justify-content-end"> <a href="mailto:madeline.carlson.business@gmail.com"><MdEmail/></a> </Col>
-                <Col className="col-4 d-flex justify-content-center"> <a href="https://github.com/SpookyLamb"><IoLogoGithub/></a> </Col>
-                <Col className="col-4 d-flex justify-content-start"> <a href="https://www.linkedin.com/in/madeline-carlson-dev/"><IoLogoLinkedin/></a> </Col>
+                <Col className="col-4 d-flex justify-content-end"> <a className="text-danger contact-link" href="mailto:madeline.carlson.business@gmail.com"><MdEmail/></a> </Col>
+                <Col className="col-4 d-flex justify-content-center"> <a className="text-danger contact-link" href="https://github.com/SpookyLamb"><IoLogoGithub/></a> </Col>
+                <Col className="col-4 d-flex justify-content-start"> <a className="text-danger contact-link" href="https://www.linkedin.com/in/madeline-carlson-dev/"><IoLogoLinkedin/></a> </Col>
             </Row>
         </Container>
     )

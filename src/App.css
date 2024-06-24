@@ -14,6 +14,11 @@ body {
   top: 0;
   z-index: 1030;
   width: 100vw;
+  height: 5rem;
+}
+
+.nav-text {
+  font-size: larger;
 }
 
 .my-carousel {
@@ -28,6 +33,15 @@ body {
 
 .caption {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.custom-caption { 
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 10px; border-radius: 5px; 
+} 
+
+.custom-caption h1, .custom-caption p { 
+  color: white; /* White text for better contrast */ 
 }
 
 .carousel-image {
@@ -80,4 +94,16 @@ body {
 
 .inferno-divider {
   height: 5rem;
+}
+
+.blog-links {
+  text-decoration: none;
+}
+
+.blog-links:hover {
+  text-decoration: underline;
+}
+
+.contact-link:hover {
+  font-size: larger;
 }
