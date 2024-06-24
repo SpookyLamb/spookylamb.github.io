@@ -61,46 +61,43 @@ function CarouselImage(props) {
 }
 
 function Portfolio() {
-  // const [index, setIndex] = useState(0);
-
-  // const handleSelect = (selectedIndex) => {
-  //   setIndex(selectedIndex);
-  // }; activeIndex={index} onSelect={handleSelect}
 
   return (
     <div className="py-5">
       <h1 className="font-monospace py-3 text-center text-white">&#123; Projects &#125;</h1>
       <Carousel className="py-5 my-carousel mx-auto">
+
         <Carousel.Item>
           <CarouselImage 
-            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/mind-reader.png"
-            link="https://spookylamb.github.io/mind-reader/"
+            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/witch-chess.png"
+            link="https://witch-chess.vercel.app/"
           />
           <Carousel.Caption className="caption">
-            <h1>Mind Reader</h1>
-            <p className="fs-4">A simple app that takes any number between 1-99, and will READ YOUR MIND!</p>
+            <h1>Witch Chess</h1>
+            <p className="fs-4">An online multiplayer blitz chess app, with magic spells! Login required to play!</p>
           </Carousel.Caption>
         </Carousel.Item>
         
         <Carousel.Item>
           <CarouselImage 
-            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/weather-app.png"
-            link="https://spookylamb.github.io/weather-app/"
+            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/chatterbox.png"
+            link="https://chatterbox-six.vercel.app/"
           />
           <Carousel.Caption className="caption">
-            <h1>Weather Report</h1>
-            <p className="fs-4">An app that pulls up the current weather in your area, or in a provided ZIP code!</p>
+            <h1>Chatterbox</h1>
+            <p className="fs-4">A simple social media app, similar in function to Twitter/Threads! Login required to view & post!</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         
         <Carousel.Item>
-          <CarouselImage
-            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/connect-4.png"
-            link="https://spookylamb.github.io/tic-tac-toe/"
+          <CarouselImage 
+            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/to-do-list.png"
+            link="https://todo-list-nine-phi-47.vercel.app/"
           />
           <Carousel.Caption className="caption">
-            <h1>Tic-Tac-Toe & Connect 4</h1>
-            <p className="fs-4">An app that lets you play Tic-Tac-Toe and Connect 4! Try to beat your friends!</p>
+            <h1>To-Do List</h1>
+            <p className="fs-4">A list that tracks and saves tasks, which you can edit, delete, or complete!</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -116,88 +113,41 @@ function Portfolio() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <CarouselImage 
-            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/to-do-list.png"
-            link="https://todo-list-nine-phi-47.vercel.app/"
+          <CarouselImage
+            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/connect-4.png"
+            link="https://spookylamb.github.io/tic-tac-toe/"
           />
           <Carousel.Caption className="caption">
-            <h1>To-Do List</h1>
-            <p className="fs-4">A list that tracks and saves tasks, which you can edit, delete, or complete!</p>
+            <h1>Tic-Tac-Toe & Connect 4</h1>
+            <p className="fs-4">An app that lets you play Tic-Tac-Toe and Connect 4! Try to beat your friends!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <CarouselImage 
+            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/weather-app.png"
+            link="https://spookylamb.github.io/weather-app/"
+          />
+          <Carousel.Caption className="caption">
+            <h1>Weather Report</h1>
+            <p className="fs-4">An app that pulls up the current weather in your area, or in a provided ZIP code!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <CarouselImage 
+            source="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/mind-reader.png"
+            link="https://spookylamb.github.io/mind-reader/"
+          />
+          <Carousel.Caption className="caption">
+            <h1>Mind Reader</h1>
+            <p className="fs-4">A simple app that takes any number between 1-99, and will READ YOUR MIND!</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
   )
-
-  // return (
-  //   <Container className="pt-5">
-  //     <Row className="d-flex justify-content-center">
-  //       <Col className="col-12 col-lg-4">
-  //           <PortfolioCard
-  //             title="Mind Reader"
-  //             pic="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/mind-reader.png"
-  //             text="A simple app that takes any number between 1-99, and will READ YOUR MIND!"
-  //             link="https://spookylamb.github.io/mind-reader/"
-  //             btn="Clairvoyance!"
-  //           />
-  //       </Col>
-  //       <Col className="col-12 col-lg-4">
-  //         <PortfolioCard
-  //           title="Weather Report"
-  //           pic="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/weather-app.png"
-  //           text="An app that pulls up the current weather in your area, or in a provided ZIP code!"
-  //           link="https://spookylamb.github.io/weather-app/"
-  //           btn="Control Weather!"
-  //         />
-  //         <PortfolioCard 
-  //           title="Tic-Tac-Toe & Connect 4"
-  //           pic="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/connect-4.png"
-  //           text="An app that lets you play Tic-Tac-Toe and Connect 4! Try to beat your friends!"
-  //           link="https://spookylamb.github.io/tic-tac-toe/"
-  //           btn="Game On!"
-  //         />
-  //       </Col>
-  //       <Col className="col-12 col-lg-4">
-  //         <PortfolioCard 
-  //           title="The Summer Demon"
-  //           pic="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/summer-demon.png"
-  //           text="A menu for a (fake) confectionary restaurant. Peruse our diabolical treats!"
-  //           link="https://spookylamb.github.io/random-restaurant/"
-  //           btn="Enjoy Our Menu..."
-  //         />
-  //         <PortfolioCard
-  //           title="To-Do List"
-  //           pic="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/to-do-list.png"
-  //           text="A list that tracks and saves tasks, which you can edit, delete, or complete!"
-  //           link="https://todo-list-nine-phi-47.vercel.app/"
-  //           btn="Get To Doing!"
-  //         />
-  //       </Col>
-  //     </Row>
-  //   </Container>
-  // )
 }
-
-// function PortfolioCard(props) {
-//   const btn_text = props.btn
-//   const btn_link = props.link
-//   const main_text = props.text
-//   const pic_href = props.pic
-//   const card_title = props.title
-
-//   return (
-//     <Col className="col-12 px-1 py-3">
-//       <Card className="portfolio-card border mx-auto" bg="dark" text="light">
-//         <Card.Img variant="top" src={pic_href}></Card.Img>
-//         <Card.Body>
-//           <Card.Title>{card_title}</Card.Title>
-//           <Card.Text>{main_text}</Card.Text>
-//           <Button variant="danger" className="mx-auto" href={btn_link} target="_blank">{btn_text}</Button>
-//         </Card.Body>
-//       </Card>
-//     </Col>
-//   )
-// }
 
 function InfernoDivider() {
   //a "navbar" that we're using as a divider
