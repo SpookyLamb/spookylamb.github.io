@@ -16,7 +16,7 @@ function Contact() {
             <Row className="text-white text-center contact-icons p-5">
                 <Col className="col-4 d-flex justify-content-end"> <a href="mailto:madeline.carlson.business@gmail.com"><MdEmail/></a> </Col>
                 <Col className="col-4 d-flex justify-content-center"> <a href="https://github.com/SpookyLamb"><IoLogoGithub/></a> </Col>
-                <Col className="col-4 d-flex justify-content-start"> <a href=""><IoLogoLinkedin/></a> </Col>
+                <Col className="col-4 d-flex justify-content-start"> <a href="https://www.linkedin.com/in/madeline-carlson-dev/"><IoLogoLinkedin/></a> </Col>
             </Row>
         </Container>
     )
