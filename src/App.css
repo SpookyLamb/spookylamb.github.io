@@ -48,7 +48,7 @@ body {
 
 .carousel-image {
   max-width: 90vw;
-  max-height: 65vh;
+  max-height: 550px;
   object-fit: cover;
   object-position: center;
   overflow: hidden;
@@ -75,7 +75,7 @@ body {
 }
 
 .contact-icons {
-  font-size: 8vh;
+  font-size: 70px;
 }
 
 .text-header {
