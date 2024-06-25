@@ -22,12 +22,14 @@ body {
 }
 
 .my-carousel {
-  height: 80vh;
+  height: 120vw;
+  max-height: 700px;
   max-width: 1200px;
 }
 
 .carousel-container {
-  height: 70vh;
+  height: 100vw;
+  max-height: 600px;
   max-width: 1200px;
 }
 
@@ -53,14 +55,11 @@ body {
   margin: auto;
 }
 
-.contact-avatar-pic {
-  height: 35vh;
-  width: 35vh;
-}
-
 .link-icon {
-  height: 5vh;
-  width: 5vh;
+  height: 5vw;
+  max-height: 50px;
+  width: 5vw;
+  max-width: 50px;
 }
 
 .contact-box {
@@ -84,8 +83,10 @@ body {
 }
 
 .funny-icon {
-  height: 22vh;
-  width: 22vh;
+  height: 50vw;
+  max-height: 200px;
+  width: 50vw;
+  max-width: 200px;
 }
 
 .portfolio-card {
