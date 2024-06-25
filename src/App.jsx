@@ -18,23 +18,23 @@ import { Link } from "react-router-dom"
 
 function Hero() {
   return (
-    <div className="hero-content section d-flex fullscreen vh-100 bg-dark">
+    <div className="hero-content section d-flex fullscreen bg-dark">
       <div className="container d-flex flex-column justify-content-evenly mx-auto" id="main-wrapper">
-          <div className="row">
-              <div className="col-12 text-center text-white">
+          <div className="row py-5">
+              <div className="col-12 text-center py-5 text-white">
                   <h1 className="font-monospace text-header py-5">&#123; HELLO FRIEND &#125;</h1>
                   {/* <h2 className="text-decoration-underline pb-2 text-danger"></h2> */}
                   <img src="https://raw.githubusercontent.com/SpookyLamb/spookylamb.github.io/main/img/avi.png" alt="A cute picture." className="rounded-circle p-3 funny-icon"></img>
               </div>
           </div>
           <div className="row text-white text-center">
-              <h2 className="font-monospace">&#123;&nbsp;
+              <h2 className="font-monospace pt-2 pb-5">&#123;&nbsp;
                 <span className="font-monospace text-danger text-decoration-bold">I'm Maddie!</span>
               &nbsp;A very spooky Developer! &#125;</h2>
               {/* <h6>(And a very spooky game developer, too!)</h6> */}
           </div>
           <div className="row text-white text-center">
-            <h2 className="font-monospace">&#123;
+            <h2 className="font-monospace py-5">&#123;
               <span>
                 <MdKeyboardArrowDown />
               </span>
